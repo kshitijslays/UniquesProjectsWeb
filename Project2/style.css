@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  overflow-x: hidden;
+}
+.bgImage {
+  background-image: url(Th10_prbig_50.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.navContainer {
+  width: 100%;
+  min-height: 80px;
+  background-color: rgb(12, 60, 96);
+  position: sticky;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(12, 60, 96);
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+}
+.Title {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navlinks {
+  display: flex;
+  gap: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navlinks li {
+  list-style: none;
+}
+.navlinks li a {
+  text-decoration: none;
+  color: white;
+}
+.box {
+  background-color: white;
+  height: 260px;
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+  margin-top: 470px;
+}
+.subTitle {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading {
+  font-size: 60px;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: rgb(12, 60, 96);
+}
+.freeConsult {
+  width: 240px;
+  height: 50px;
+  font-size: 15px;
+  margin-left: 34%;
+  margin-top: 30px;
+  color: rgb(12, 60, 96);
+  border: 1px solid rgb(12, 60, 96);
+  background-color: white;
+  transition: all 0.5s;
+}
+.freeConsult:hover {
+  background-color: rgb(12, 60, 96);
+  color: white;
+}
+.mainPage {
+  display: flex;
+  gap: 160px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+  align-items: center;
+}
+.head {
+  font-size: 34px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(12, 60, 96);
+}
+.para {
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  font-weight: 10;
+  font-size: 15px;
+  color: rgb(66, 66, 66);
+}
+.BOX2 {
+  width: 290px;
+  height: 600px;
+}
+.btn {
+  width: 160px;
+  height: 50px;
+  font-size: 15px;
+  margin-top: 30px;
+  color: rgb(12, 60, 96);
+  border: 1px solid rgb(12, 60, 96);
+  background-color: white;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(12, 60, 96);
+  color: white;
+}
+.aboutUs {
+  background-image: url(./pexels-photo-414459.jpeg);
+  /* background-color: #15b5d5; */
+  background-attachment: fixed;
+  background-size: contain;
+
+
+
+
+}
+.whiteFilter
+{
+  background-color: #fff;
+  opacity: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center; 
+  color: black;
+  /* z-index: 0; */
+  text-align: center;
+}
+.thirdPage {
+  /* z-index: 9999; */
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  opacity: 100%;
+  
+}
+.thirdPage p{
+  color: black;
+  /* z-index: 99; */
+
+}
+.learnMore {
+  width: 160px;
+  height: 50px;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 220px;
+  color: rgb(12, 60, 96);
+  border: 1px solid rgb(12, 60, 96);
+  background-color: white;
+  transition: all 0.5s;
+  opacity: 100%;
+  font-weight: bold;
+}
+.learnMore:hover{
+  background-color: rgb(12, 60, 96);
+  color: white;
+  /* opacity: 100%; */
+}
+.fourthpage{
+  display: flex;
+  flex-direction: column;
+/* background-color: red; */
+   width: 100vw;
+  /* height: 70px; */
+  align-items:center;
+  justify-content: space-around;
+  height: 50vh;
+}
+.logos{
+  display: flex;
+  height: 100px;
+  width: 80vw;
+  justify-content: space-around ;
+
+}
+
+
+.logoimg
+{
+  height: 75px;
+}
+.map{
+  /* background-color: red; */
+  display: flex;
+  padding: 50px;
+  align-items: center;justify-content: center;
+}
+.map iframe{
+  width: 80vw;
+  height: 40vh;
+  text-align: center;
+}
