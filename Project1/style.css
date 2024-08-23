@@ -161,6 +161,12 @@ nav {
   letter-spacing: 1px;
   font-size: 15px;
 }
+.loginicon{
+  display: inline-block;
+  margin: auto;
+  margin-top: 5px;
+  
+}
 .read {
   width: 100px;
   color: white;
@@ -170,6 +176,12 @@ nav {
 .read:hover {
   color: black;
   background-color: white;
+}
+.iconDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 .consult {
   margin-left: 20px;

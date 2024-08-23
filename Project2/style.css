@@ -102,8 +102,8 @@ nav {
   line-height: 30px;
   font-weight: 10;
   font-size: 15px;
-  color: rgb(66, 66, 66);
-}
+  color: rgb(12, 60, 96);
+} 
 .BOX2 {
   width: 290px;
   height: 600px;
@@ -125,17 +125,12 @@ nav {
 }
 .aboutUs {
   background-image: url(./pexels-photo-414459.jpeg);
-  /* background-color: #15b5d5; */
   background-attachment: fixed;
   background-size: contain;
-
-
-
-
 }
 .whiteFilter
 {
-  background-color: #fff;
+  background-color: #ddf5f5;
   opacity: 90%;
   width: 100%;
   display: flex;
@@ -143,11 +138,9 @@ nav {
   height: 100vh;
   align-items: center; 
   color: black;
-  /* z-index: 0; */
   text-align: center;
 }
 .thirdPage {
-  /* z-index: 9999; */
   width: 600px;
   display: flex;
   flex-direction: column;
@@ -212,4 +205,28 @@ nav {
   width: 80vw;
   height: 40vh;
   text-align: center;
+}
+.fifthSection {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;    /* Centers content vertically */
+}
+
+.testimonials {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  opacity: 100%;
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para2{
+  font-size: 20px;
+  padding: 80px;
+  letter-spacing: 1px;
+
 }
